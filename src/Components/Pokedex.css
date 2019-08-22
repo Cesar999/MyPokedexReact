@@ -1,0 +1,24 @@
+.Pokedex{
+    
+}
+
+.Pokedex .fetchFrom{
+    background-color: tomato;
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+hr{
+    margin: 0 0 10px 0;
+}
+
+.Pokedex .fetchFrom input{
+    font-size: 1.1rem;
+}
+
+.Pokedex .fetchFrom button{
+    font-size: 1.1rem;
+}

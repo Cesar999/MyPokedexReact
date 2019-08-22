@@ -1,0 +1,9 @@
+.AbilityCard {
+    border: 4px solid white;
+    background-color: white;
+    flex-grow: 1;
+}
+
+.AbilityCard > h3{
+    margin: 5px 0 10px 0;
+}

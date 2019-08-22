@@ -1,0 +1,106 @@
+.Pokecard{
+    background-color: tomato;
+    width: 80%;
+    margin: 0 auto;
+    border: 6px solid white;
+    border-radius: 5px;
+    min-width: 865px;
+    min-height: 500px;
+}
+
+.Pokecard .container{
+    display: flex;
+}
+
+.Pokecard .title{
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    margin-left: 2%;
+}
+
+.Pokecard .image{
+    width:300px;
+}
+
+.Pokecard .types{
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: capitalize;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 3%;
+}
+
+.Pokecard .types .type{
+    font-size: 1.3rem;
+    width: 100%;
+    padding: 10px;
+    border: 4px solid white;
+    border-radius: 5px;
+    font-weight: 500;
+    color: black;
+}
+
+.Pokecard .stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Pokecard .stats > div{
+    width: 33%;
+    border: 0px solid white;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+.Pokecard .stats > div h5{
+    margin: 0;
+}
+
+.Pokecard .formsContainer{
+    display: flex;
+}
+
+.Pokecard .abilitiesContainer{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.Pokecard .movesContainer{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Pokecard .abilityForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Pokecard .moveForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Pokecard form select{
+    font-weight: 600;
+    padding: 5px;
+    margin: 5px;
+}
